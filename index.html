@@ -13,9 +13,9 @@
 <body>
     <a-scene 
         embedded 
-        renderer="logarithmicDepthBuffer: true; antialias: true; alpha: true;"
+        renderer="logarithmicDepthBuffer: true; antialias: true; alpha: true; precision: high;"
         arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;
-          smooth: true; smoothCount: 10; smoothTolerance: 0.05; smoothThreshold: 5;
+          smooth: true; smoothCount: 20; smoothTolerance: 0.01; smoothThreshold: 3;
           detectionMode: mono_and_matrix; matrixCodeType: 3x3; facingMode: environment;
           sourceWidth: 1280; sourceHeight: 720; displayWidth: 1280; displayHeight: 720;">
         
@@ -34,7 +34,7 @@
             </a-entity>
         </a-marker>
 
-        <a-entity camera="fov: 80"></a-entity>
+        <a-entity camera="fov: 85"></a-entity>
     </a-scene>
 </body>
 </html>
