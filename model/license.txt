@@ -1,0 +1,11 @@
+Model Information:
+* title:	simple cube
+* source:	https://sketchfab.com/3d-models/simple-cube-3a180e00bbe446ea9a32961c6f6f9f5e
+* author:	unknown3011200 (https://sketchfab.com/unknown3011200)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "simple cube" (https://sketchfab.com/3d-models/simple-cube-3a180e00bbe446ea9a32961c6f6f9f5e) by unknown3011200 (https://sketchfab.com/unknown3011200) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
