@@ -14,9 +14,10 @@
     <a-scene 
         embedded 
         renderer="logarithmicDepthBuffer: true; antialias: true; alpha: true;"
-        arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false; 
-              smooth: true; smoothCount: 10; smoothTolerance: 0.05; smoothThreshold: 5;
-              detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
+        arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;
+          smooth: true; smoothCount: 10; smoothTolerance: 0.05; smoothThreshold: 5;
+          detectionMode: mono_and_matrix; matrixCodeType: 3x3; facingMode: environment;
+          sourceWidth: 1280; sourceHeight: 720; displayWidth: 1280; displayHeight: 720;">
         
         <a-assets>
             <a-asset-item id="model" src="model/scene.gltf"></a-asset-item>
@@ -33,7 +34,7 @@
             </a-entity>
         </a-marker>
 
-        <a-entity camera></a-entity>
+        <a-entity camera="fov: 80"></a-entity>
     </a-scene>
 </body>
 </html>
