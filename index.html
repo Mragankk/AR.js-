@@ -14,8 +14,8 @@
     <a-scene 
         embedded 
         renderer="logarithmicDepthBuffer: true; antialias: true; alpha: true; precision: high;"
-        arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;
-          smooth: false; smoothCount: 20; smoothTolerance: 0.01; smoothThreshold: 3;
+        arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: true;
+          smooth: true; smoothCount: 20; smoothTolerance: 0.01; smoothThreshold: 3;
           detectionMode: mono_and_matrix; matrixCodeType: 3x3; facingMode: environment;
           sourceWidth: 1280; sourceHeight: 720; displayWidth: 1280; displayHeight: 720;">
         
@@ -26,11 +26,10 @@
         <a-marker type="pattern" url="marker.patt">
             <a-entity 
                 gltf-model="#model" 
-                scale="0.5 0.5 0.5" 
-                position="0 0.3 0" 
+                scale="0.1 0.1 0.1" 
+                position="0 0 0" 
                 rotation="0 180 0"
-                
-                animation-mixer>
+                >
             </a-entity>
         </a-marker>
         <a-entity camera="fov: 85"></a-entity>

@@ -1,0 +1,21 @@
+# Node.js dependencies (if you use npm)
+node_modules/
+package-lock.json
+
+# SSL Certificates (security risk)
+cert.pem
+key.pem
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.bin
+
+# Backup and temp files
+*.bak
+*.tmp
+*.swp
+*.swo
